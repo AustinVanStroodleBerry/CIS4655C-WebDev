@@ -18,27 +18,29 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
-      <div class="contain-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <h1>Heading 1</h1>
-            <p>This will be some basic text.  Wowee.</p>
-          </div>
-          <div class="col-md-4">
-            <h1>Buttons and Form</h1>
-            <div class="container">
-              <h2>Adds test</h2>
-              <p>This is the paragraph</p>
-              <button type="button" class="btn btn-default">Default</button>
+    <div class="row">
+      <!--Row one-->
+        <div class="col-sm-4">
+          <h1>Heading 1</h1>
+          <p>This will be some basic text.  <b>Wowee</b></p>
+        </div>
+      <!--Row 2-->
+        <div class="col-sm-4">
+        <form>
+            <div class="form">
+              <div class="form-group">
+                <label for="text">Text</label>
+                <input type="text" class="form-control" id="text" placeholder="Type anything">
+              </div>
+                <button type="button" class="btn btn-default">Button 1</button>
+                <button type="button" class="btn btn-warning">Button 2</button>
             </div>
           </div>
-          <div class="col-md-4">
-            <h1>Heading 1</h1>
-            <p>This will be some basic text.  Wowee.</p>
-          </div>
+        <!--Row 3-->
+        <div class="col-sm-4">
+          <img class="img-responsive img-circle" src="http://sotd.us/austinvanraden/CIS4655C-WebDev/Module%202/Activity/Cat.PNG" alt="kat">
         </div>
-      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
